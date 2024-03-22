@@ -79,7 +79,8 @@ input{
 
 .home h1{
     font-size: 7.5em; line-height: 0.8;
-    animation: loadEffect 0.5s linear 1 normal;
+    left: -200%;
+    animation: loadEffect 0.5s linear 1s 1 normal forwards;
 }
 
 .home>div>p{
@@ -88,7 +89,7 @@ input{
     -webkit-text-stroke: 0.1px;
     line-height: 1.9;
     left: -200%;
-    animation: loadEffect 0.5s linear 0.5s 1 normal forwards;
+    animation: loadEffect 0.5s linear 1.5s 1 normal forwards;
 }
 
 
@@ -106,7 +107,7 @@ input{
 .home button{
     transform: scale(0);
     font-size: 13px;
-    animation: scale 0.5s linear 1.2s normal forwards;
+    animation: scale 0.5s linear 2.3s normal forwards;
 }
 
 .head{
