@@ -65,8 +65,21 @@ input{
     width: 36%;
 }
 
+
+
+@keyframes loadEffect {
+    from{
+        left:-200%
+    }
+    to{
+        left: 0;
+    }
+    
+}
+
 .home h1{
-    font-size: 7.5em; line-height: 0.8;;
+    font-size: 7.5em; line-height: 0.8;
+    animation: loadEffect 0.5s linear 1 normal;
 }
 
 .home>div>p{
@@ -74,10 +87,26 @@ input{
     font-weight: 400;
     -webkit-text-stroke: 0.1px;
     line-height: 1.9;
+    left: -200%;
+    animation: loadEffect 0.5s linear 0.5s 1 normal forwards;
+}
+
+
+@keyframes scale {
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1);
+    }
+    
 }
 
 .home button{
+    transform: scale(0);
     font-size: 13px;
+    animation: scale 0.5s linear 1.2s normal forwards;
 }
 
 .head{
@@ -88,6 +117,25 @@ input{
 .subHead{
     font-size: 13px;
     font-weight: 500;
+}
+
+.search{
+    transform: scale(0) translate(-50%, -50%) !important;
+}
+
+.conceptImg:hover{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.conceptImg:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.conceptImg:hover .search{
+    transform: scale(1)  translate(-50%, -50%) !important;
+    transition: all 0.5s;
 }
 
 .serviceCard{
@@ -108,6 +156,20 @@ input{
 
 .serviceCard a{
     font-size: 10px;
+}
+
+.projectCard:hover{
+    cursor: pointer;
+}
+
+.projectCard:hover .projectHover{
+    left: 0% !important;
+    transition: all 0.3s;
+}
+
+.projectHover>div:hover{
+    background-color: white;
+    color: black !important;
 }
 
 .about{
