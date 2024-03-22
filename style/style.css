@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: "Poppins", sans-serif;
+width: fit-content;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    width: fit-content;
+}
+
+.poppinsFont{
+    font-family: "Poppins", sans-serif;
+}
+
+.OpenSansFont{
+    font-family: "Open Sans", sans-serif;
+}
+
+.robotoFont{
+    font-family: "Roboto", sans-serif;
+}
+
+.widthFit{
+    width: fit-content;
+}
+
+.paddingx{
+    padding-left: 11.5% !important;
+    padding-right: 11.5% !important;
+}
+
+
+.bgFit{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.width25px{
+    width: 25px;
+}
+
+.hamBurg div{
+    height: 2px;
+}
+
+.home{
+    background-image: url('../public/images/Topimg.jpg');
+    height: 120vh;
+    width: 100%;
+}
+
+.home>div{
+    width: 36%;
+}
+
+.home h1{
+    font-size: 7.5em; line-height: 0.8;;
+}
+
+.home>div>p{
+    font-size: 13px;
+    font-weight: 400;
+    -webkit-text-stroke: 0.1px;
+    line-height: 1.9;
+}
+
+.home button{
+    font-size: 13px;
+}
+
+.head{
+    font-size: 28.5px;
+    -webkit-text-stroke: 0.2px;
+}
+
+.subHead{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.serviceCard{
+    width: 176px;
+}
+
+.serviceCard>img{
+    width: 70px;
+}
+
+.serviceCard h5{
+    font-size:17px;
+}
+
+.serviceCard p{
+    font-size: 13px;
+}
+
+.serviceCard a{
+    font-size: 10px;
+}
+
+.about{
+    background-color: #f3f3f3;
+}
+
+.about>div{
+width: 450px;;
+}
+
+.who{
+    background-image: url('../public/images/whoImg.jpg');
+}
+
+.fwBold{
+    font-weight: bold;
+}
+
+.contact{
+    background-image: url('../public/images/contactImg.jpg');
+}
+
+.socialicon>img{
+    width: 25px;
+    margin: 0 1px;
+}
+
+.social>p{
+    font-size: 13px;
+    -webkit-text-stroke: 0.1px;
+}
+
+@media (max-width: 470px) {
+
+    *{
+        text-align: justify !important;
+    }
+
+    .home{
+        font-size: 0.5em;
+    }
+    .home>div{
+        width: 100%;
+    }
+
+    button{
+        margin: auto !important;
+    }
+
+    a{
+        margin: auto !important;
+    }
+
+    .abtTxt>div{
+        padding: 15px !important;
+    }
+
+    .abtTxt>div>h1{
+        margin: auto;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .abtTxt>div>p{
+        font-size: 12px !important;
+        line-height: 1.2 !important;
+        margin: 0 !important;
+    }
+
+    .abtTxt>div>a{
+        font-size: 10px !important;
+        margin-top: 8px !important;
+    }
+
+    .clientCard{
+        justify-content: center !important;
+    }
+
+    .clientTxt{
+        width: 100% !important;
+    }
+
+    .clientTxt>h6{
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .serviceCard{
+        width: 100%;
+    }
+
+    .arrleft, .arrright{
+        display: none !important;
+    }
+
+    .contact>p{
+        margin: auto !important;
+    }
+
+    .contact>div{
+        flex-direction: column-reverse !important;
+    }
+
+    .contact>div>div{
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+
+    form{
+        width: 100% !important;
+    }
+
+    footer div{
+        width: 100% !important;
+        margin: 10px 0;
+    }
+
+    .foot-items h1{
+        font-size: 15px !important;
+    }
+
+    .foot-items p{
+        font-size: 10px !important;
+    }
+
+    footer p{
+        width: 100% !important;
+    }
+
+    .social>p{
+        font-size: 10px;
+    }
+    
+}
