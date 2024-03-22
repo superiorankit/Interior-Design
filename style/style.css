@@ -140,7 +140,7 @@ width: 450px;;
     -webkit-text-stroke: 0.1px;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 626px) {
 
     *{
         text-align: justify !important;
@@ -166,20 +166,22 @@ width: 450px;;
     }
 
     .abtTxt>div>h1{
-        margin: auto;
+        margin: 0 auto;
         font-size: 18px;
         margin-bottom: 5px;
     }
 
     .abtTxt>div>p{
         font-size: 12px !important;
-        line-height: 1.2 !important;
+        line-height: 1.5 !important;
         margin: 0 !important;
     }
 
     .abtTxt>div>a{
         font-size: 10px !important;
-        margin-top: 8px !important;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+        margin-left: auto !important;
     }
 
     .clientCard{
@@ -193,6 +195,10 @@ width: 450px;;
     .clientTxt>h6{
         margin: auto;
         margin-top: 20px;
+    }
+
+    .projectButton{
+        padding: 15px 25px !important;
     }
 
     .serviceCard{
